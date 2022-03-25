@@ -1,0 +1,98 @@
+[
+  {
+
+    "id": "1",
+    "name": "Samsung Galaxy A01",
+    "price": 420,
+    "img": "https://i.ibb.co/VVxqQbZ/Samsung-Galaxy-A01.jpg"
+
+  },
+  {
+
+    "id": "2",
+    "name": "Samsung Galaxy A03",
+    "price": 196,
+    "img": "https://i.ibb.co/jMLxLT6/Samsung-Galaxy-A03.jpg"
+    
+  },
+  {
+
+    "id": "3",
+    "name": "Samsung Galaxy A03s",
+    "price": 245,
+    "img": "https://i.ibb.co/0FL23Dw/Samsung-Galaxy-A03s.jpg"
+    
+  },
+  {
+
+    "id": "4",
+    "name": "Samsung Galaxy A5",
+    "price": 229,
+    "img": "https://i.ibb.co/LP2r7k0/Samsung-Galaxy-A5.jpg"
+   
+  },
+  {
+
+    "id": "5",
+    "name": "Samsung Galaxy A12",
+    "price": 287,
+    "img": "https://i.ibb.co/9b7z3dh/Samsung-Galaxy-A12.jpg"
+
+  },
+  {
+
+    "id": "6",
+    "name": "Samsung Galaxy A22",
+    "price": 138,
+    "img": "https://i.ibb.co/Z6v3zkc/Samsung-Galaxy-A22.jpg"
+
+  },
+  {
+    
+    "id": "7",
+    "name": "Samsung Galaxy A51",
+    "price": 226,
+    "img": "https://i.ibb.co/5RFBbtG/Samsung-Galaxy-A51.jpg"
+    
+  },
+  {
+
+    "id": "8",
+    "name": "Samsung Galaxy J7",
+    "price": 319,
+    "img": "https://i.ibb.co/6rPGjP0/Samsung-Galaxy-J7.jpg"
+
+  },
+  {
+    
+    "id": "9",
+    "name": "Samsung Galaxy M01s",
+    "price": 260,
+    "img": "https://i.ibb.co/sq43R9b/Samsung-Galaxy-M01s.jpg"
+
+  },
+  {
+
+    "id": "10",
+    "name": "Samsung Galaxy M02",
+    "price": 437,
+    "img": "https://i.ibb.co/cgf2cts/Samsung-Galaxy-M02.jpg"
+
+  },
+  {
+
+    "id": "11",
+    "name": "Samsung Galaxy M11",
+    "price": 146,
+    "img": "https://i.ibb.co/QngbjxD/Samsung-Galaxy-M11.jpg"
+
+  },
+  {
+
+    "id": "12",
+    "name": "Samsung Galaxy S20",
+    "price": 109,
+    "img": "https://i.ibb.co/Y2hGwmb/Samsung-Galaxy-S20.jpg"
+    
+  }
+]

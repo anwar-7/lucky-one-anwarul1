@@ -1,0 +1,15 @@
+.header {
+  color: #ffffff;
+  background-color: black;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.header h1:hover {
+  color: orange;
+}

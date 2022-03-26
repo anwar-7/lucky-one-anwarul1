@@ -1,3 +1,29 @@
 .cart {
   background-color: brown;
 }
+.cart h3 {
+  text-align: center;
+}
+
+.cart-info {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.cart-info img {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px 10px;
+  padding-left: 10px;
+}
+
+.cart-info p {
+  margin: 0 20px;
+}
+
+.choose-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

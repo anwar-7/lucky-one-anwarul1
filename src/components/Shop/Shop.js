@@ -15,7 +15,9 @@ const Shop = () => {
   }, []);
 
   const handleAddToCart = (product) => {
-    if (cart.indexOf(product) === -1) {
+    if (cart.length < 4) {
+      const addedToCart = cart.find((cart) => cart.id === product.id);
+      if (addedToCart) return;
       const newCart = [...cart, product];
       setCart(newCart);
     }
@@ -23,6 +25,26 @@ const Shop = () => {
 
   const chooseAgain = () => {
     setCart([]);
+  };
+
+  const chooseOneForMe = () => {
+    const randomItem = [cart[Math.floor(Math.random() * cart.length)]];
+    setCart(randomItem);
+  };
+
+  // const handleRemoveSingleCartItem = (id) => {
+  //   const newCarts = carts.filter((cart) => {
+  //     return cart.id !== id;
+  //   });
+
+  //   setCarts(newCarts);
+  // };
+
+  const handleRemove = (id) => {
+    const newCart = cart.filter((cart) => {
+      return cart.id !== id;
+    });
+    setCart(newCart);
   };
 
   return (
@@ -37,7 +59,12 @@ const Shop = () => {
         ))}
       </div>
       <div className="cart-container">
-        <Cart cart={cart} chooseAgain={chooseAgain}></Cart>
+        <Cart
+          cart={cart}
+          chooseAgain={chooseAgain}
+          chooseOneForMe={chooseOneForMe}
+          handleRemove={handleRemove}
+        ></Cart>
       </div>
     </div>
   );

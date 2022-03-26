@@ -1,6 +1,6 @@
 # Website Name `Select Bast`
 
-My live website name and link [Select Bast](https://)\ [https://](https://)
+My live website name and link [Select Bast](https://).\ [https://](https://)
 
 ## Getting Started with Create React App
 

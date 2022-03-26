@@ -26,4 +26,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 10px;
+}
+.choose-for-me-btn {
+  width: 232px;
+  height: 48px;
+  margin: 10px;
+  border-radius: 4px;
+  background: rgba(255, 153, 0, 1);
+  border: 0;
+  cursor: pointer;
+}
+.choose-again-btn {
+  width: 232px;
+  height: 48px;
+  margin: 10px;
+  border-radius: 4px;
+  background: rgba(255, 48, 48, 1);
+  border: 0;
+  cursor: pointer;
 }

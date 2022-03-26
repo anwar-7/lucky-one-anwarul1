@@ -28,8 +28,10 @@ const Shop = () => {
   };
 
   const chooseOneForMe = () => {
-    const randomItem = [cart[Math.floor(Math.random() * cart.length)]];
-    setCart(randomItem);
+    if (cart.length > 0) {
+      const randomItem = [cart[Math.floor(Math.random() * cart.length)]];
+      setCart(randomItem);
+    }
   };
 
   // const handleRemoveSingleCartItem = (id) => {

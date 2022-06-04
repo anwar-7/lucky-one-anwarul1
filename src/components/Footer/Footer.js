@@ -4,7 +4,7 @@ import './Footer.css';
 const Footer = () => {
   return (
     <div className="footer">
-      <h2>How React works?</h2>
+      {/* <h2>How React works?</h2>
       <p>
         React is a JavaScript library, first and foremost. As a result, we're
         able to employ JavaScript code in this situation. Incorporating HTML
@@ -35,7 +35,7 @@ const Footer = () => {
         States are used to send data just within a component. Proper performance
         is excellent, but state's performance is inferior to props.Only props
         and not state can be utilized with the stateless component.
-      </p>
+      </p> */}
     </div>
   );
 };

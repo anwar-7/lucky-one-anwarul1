@@ -4,7 +4,7 @@ import './Header.css';
 const Header = () => {
   return (
     <div className="header">
-      <h1>Select Bast</h1>
+      <h1>Select One</h1>
     </div>
   );
 };

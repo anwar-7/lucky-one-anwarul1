@@ -1,7 +1,6 @@
 # Website Name [Select One](https://select-one.netlify.app/)
 
-My live website name and link [Select Bast](https://select-best.netlify.app/).\
-Site link.\ [https://select-best.netlify.app/](https://select-best.netlify.app/)
+Site link: [https://select-one.netlify.app/](https://select-one.netlify.app/)
 
 ## Getting Started with Create React App
 
